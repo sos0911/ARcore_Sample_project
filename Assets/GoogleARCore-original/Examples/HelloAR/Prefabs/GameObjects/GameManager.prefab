@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100015905695597273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 100015905695597278}
+  - component: {fileID: 100015905695597279}
+  - component: {fileID: 7971613025948269492}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &100015905695597278
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100015905695597273}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.35830438, y: 0.09986299, z: 0.2729735}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &100015905695597279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100015905695597273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7214ea649051f43bb8c0e210afa0a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Is_map_placed: 0
+  map_scaled_factor: 0.01
+  UI_text_cache: {fileID: 0}
+  TurretPrefab: {fileID: 8553781815276552359, guid: 72934a08c3fd6384db009f0c667be25b,
+    type: 3}
+  MissileLancherPrefab: {fileID: 1373366199280677103, guid: 5c5632eddbac0da42bc6725922d4e2a4,
+    type: 3}
+  Shop: {fileID: 0}
+  LeftTimeUI: {fileID: 0}
+--- !u!114 &7971613025948269492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100015905695597273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41862527553c704e9a461b0765a4dca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMoney: 400
